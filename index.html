@@ -3,8 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Beep! Boop!</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js" charset="utf-8"></script>
+    <script src="js/scripts.js" charset="utf-8"></script>
   </head>
   <body>
-
+    <div class="container">
+      <div class="jumbotron">
+        <h1 id="top">BEEP, BOOP Commander</h1>
+      </div>
+      <form id="beep">
+        <label for="number">Input Number command:</label>
+        <input type="number" id="number"> <br>
+        <button type="submit" class="btn btn-danger">Process</button>
+      </form>
+      <br>
+      <br>
+      <span id="result"></span>
+    </div>
   </body>
 </html>
