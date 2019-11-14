@@ -8,7 +8,7 @@
   * **Output:** "Not a number"
 * This program will create a display of values base on the number inputted by the user
   * **Input:** 5
-  * **Output:** 1, 2, 3, 4, 5
+  * **Output:** 0, 1, 2, 3, 4, 5
 * This program will take all numbers that contain a 0 and replace them with "Beep!"
   * **Input:** 0
   * **Output:** "Beep!"
