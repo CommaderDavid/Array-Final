@@ -3,7 +3,9 @@ var beepBoop = function(numberInput) {
   var returnOrder = [];
 
   for (var i = 0; i <= numberInput; i++) {
-    returnOrder.push(i)
+    if (i == 0) {
+      returnOrder.push(i)
+    }
   }
   return returnOrder
 }
@@ -15,6 +17,6 @@ $(document).ready(function() {
     var numberInput = parseInt($("input#number").val());
     var result = beepBoop(numberInput);
 
-    $("#result").append(result + ", ");
+    $("#result").empty().append(result + ", ");
   });
 });

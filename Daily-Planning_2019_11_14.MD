@@ -27,11 +27,10 @@
 
 *
 
-
 #### Please list the names of the projects you worked on today:
 
-*
+* Array & Looping Final
 
 #### Please add a link to GitHub repository to all projects you worked on today:
 
-*
+* https://github.com/CommaderDavid/Array-Final
