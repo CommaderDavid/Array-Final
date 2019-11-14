@@ -1,18 +1,20 @@
 // Back end
 var beepBoop = function(numberInput) {
-  var order = numberInput.split("");
   var returnOrder = [];
 
-  
+  for (var i = 0; i <= numberInput; i++) {
+    returnOrder.push(i)
+  }
+  return returnOrder
 }
 // Front end
 $(document).ready(function() {
   $("form#beep").submit(function(e) {
     e.preventDefault();
 
-    var numberInput = $("input#number").val();
+    var numberInput = parseInt($("input#number").val());
     var result = beepBoop(numberInput);
 
-    $("#result").empty().append(result);
+    $("#result").append(result + ", ");
   });
 });
