@@ -4,5 +4,19 @@
 }
 #result {
   font-size: 20px;
-  color: blue;
+  color: #33ccff;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+label {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #009900;
+  font-size: 30px;
+}
+body {
+  background-image: url("./../img/background.jpg");
+}
+#hale {
+  float: right;
+  width: 200px;
+  display: none;
 }

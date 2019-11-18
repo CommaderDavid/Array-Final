@@ -24,12 +24,12 @@ $(document).ready(function() {
     var result = beepBoop(numberInput);
 
     for (var i = 0; i < result.length; i++) {
-      console.log(result.length, i);
       if (i >= result.length - 1) {
         $("#result").append(result[i]);
       } else {
         $("#result").append(result[i] + ",");
       }
     }
+    $("#hale").show();
   });
 });
