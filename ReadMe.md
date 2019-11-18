@@ -21,3 +21,19 @@
 * The first exception should run first unless the second one does, same with the second and third one.
   * **Input:** 10, 30
   * **Output:** "Boop!", "I'm sorry, Dave. I'm afraid I can't do that."
+
+### Description
+This webpage takes the number given by the user, and creates a message from a deranged robot. This website was created with _HTML, CSS, JavaScript, Bootstrap, jQuery,_ and _GitHub._
+
+### Setup and Installation
+* Copy the repository to your computer
+* Open it in a browser of your choice
+* Input any number into the field
+* Click Process, and enjoy!
+
+### Contact and Support Info
+If you have any concerns or questions, please contact me at stealth259@gmail.com
+
+#### License
+This website is under the MIT license.
+Copyright (c) 2019 _**David Boedigheimer**_
