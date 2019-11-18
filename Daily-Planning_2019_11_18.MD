@@ -1,6 +1,6 @@
 # Daily Planning Doc
 
-##### Date: 11-14-2019
+##### Date: 11-18-2019
 
 ## BEFORE BEGINNING WORK:
 
