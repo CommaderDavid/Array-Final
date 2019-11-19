@@ -20,6 +20,8 @@ $(document).ready(function() {
   $("form#beep").submit(function(e) {
     e.preventDefault();
 
+    $("#result").empty();
+
     var numberInput = parseInt($("input#number").val());
     var result = beepBoop(numberInput);
 
